@@ -62,7 +62,7 @@ void CollisionObserver::checkCollisions(Ball& b)
     }
 }
 
-void find_closer(Ball& b, Rect* rec, int& cX, int& cY)
+void CollisionObserver::find_closer(Ball& b, Rect* rec, int& cX, int& cY)
 {
     //Find closest x offset
     if(b.posData.pos_x < rec->rect.x) {

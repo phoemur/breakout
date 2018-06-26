@@ -27,6 +27,7 @@ private:
     inline bool checkRight(Ball& b);
     inline bool checkLower(Ball& b);
     inline bool checkUpper(Ball& b);
+    void find_closer(Ball& b, Rect* rec, int& cX, int& cY);
 
 };
 
